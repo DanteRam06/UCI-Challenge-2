@@ -1,14 +1,81 @@
+*{
+    background-color: antiquewhite;
+}
+
+h1{
+    background-color: rgb(33, 33, 122);
+}
+
+header ul{
+    background-color: rgb(33, 33, 122);
+}
+
 header {
     padding: 20px;
     font-family:'Times New Roman', Times, serif;
-    background-color: rgb(45, 45, 179);
+    background-color: rgb(33, 33, 122);
     color: black;
 }
 
-h2{
-    display: flex;
-    justify-content: flex-end;
+header ul li{
+    display: inline;
+    text-align: right;
 }
-    
 
+li{
+    text-decoration: underline;
+}
+.Work-Image{
+    position: relative;
+}
 
+.Prework-UCI {
+    position: absolute;
+    top: 160px;
+
+}
+
+.UCI-1 {
+    position: absolute;
+    top: 310px;
+    left: 0px;
+}
+
+.UCI-2 {
+    position: absolute;
+    bottom: -19px;
+    left:0px;
+
+}
+
+img{
+    display: block;
+    width: 200px;
+    height: 150px;
+}
+
+footer ul li{
+    display: inline-block;
+    padding: 10px;
+}
+
+@media screen and (max-width: 992px){
+    img{
+        width: 50%
+    }
+}
+
+@media screen and (max-width: 768px){
+    img{
+        width: 50%
+    }
+}
+
+li:hover{
+    color: red;
+}
+
+li:active{
+    font-size: 20px;
+
+}
